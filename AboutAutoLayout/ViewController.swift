@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         
         // 2
         redView.translatesAutoresizingMaskIntoConstraints = false
-        redView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        redView.topAnchor.constraint(equalTo: view.topAnchor, constant: 110).isActive = true
         redView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         redView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         redView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
